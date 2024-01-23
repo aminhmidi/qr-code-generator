@@ -18,8 +18,7 @@ Visit the live demo [here](https://aminhmidi.github.io/qr-code-generator/).
 - HTML
 - CSS
 - JavaScript
-- SweetAlert2 for styled alerts
-
+  
 ## How to Use
 
 1. Open `index.html` in your web browser.
@@ -31,3 +30,10 @@ Visit the live demo [here](https://aminhmidi.github.io/qr-code-generator/).
 ## Installation
 
 Simply clone the repository and open `index.html` in your preferred web browser.
+
+## Credits
+
+This project is built with the help of the following resources:
+
+- **QR Code Generation:** Utilizes the Google Chart API for creating QR codes.
+- **Styled Alerts:** SweetAlert2 library is used for providing styled alerts.
