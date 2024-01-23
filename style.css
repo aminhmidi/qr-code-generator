@@ -1,0 +1,122 @@
+:root {
+  --InputBackgroundColor: #35012c;
+  --InputHoverBackgroundColor: #290025;
+  --htmlFontSize: 100%;
+  --bodyBackgroundColor: #11001c;
+  --bodyColor: var(--baseColor);
+  --background-color: #290025;
+  --bodyFontFamily: monospace;
+  --bodyFontFamilyFallback: sans-serif;
+  --bodyFontSize: 0.875rem;
+  --bodyFontWeight: 400;
+  --bodyLineHeight: 1.5;
+}
+.grid {
+  inline-size: 90%;
+  margin-inline: auto;
+  max-inline-size: 20rem;
+  display: grid;
+}
+
+.hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: var(--htmlFontSize);
+}
+
+body {
+  background-color: var(--bodyBackgroundColor);
+  color: white;
+  font-family: var(--bodyFontFamily), var(--bodyFontFamilyFallback);
+  font-size: var(--bodyFontSize);
+  font-weight: var(--bodyFontWeight);
+  line-height: var(--bodyLineHeight);
+  margin: 0;
+  min-block-size: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+input {
+  background-image: none;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+}
+
+textarea,
+select,
+option {
+  background-image: none;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+}
+
+textarea,
+select,
+option,
+input[type="submit"] {
+  inline-size: 100%;
+  padding: 1rem;
+}
+
+textarea,
+option,
+select {
+  background-color: var(--InputBackgroundColor);
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+select:hover {
+  background-color: var(--InputHoverBackgroundColor);
+}
+textarea:focus,
+textarea:hover {
+  background-color: var(--InputHoverBackgroundColor);
+}
+
+input[type="submit"] {
+  background-color: #3a015c;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: medium;
+}
+
+input[type="submit"]:hover {
+  background-color: #4a0175;
+}
+
+textarea {
+  margin-block: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
