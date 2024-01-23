@@ -11,7 +11,7 @@ A simple and modern QR code generator web application built with HTML, CSS, and 
 
 ## Demo
 
-![QR Code Generator Demo](demo.gif)
+Visit the live demo [here](https://aminhmidi.github.io/qr-code-generator/).
 
 ## Technologies Used
 
